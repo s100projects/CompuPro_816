@@ -9,7 +9,7 @@
   - [CompuPro Connectors](#compupro-connectors)
   - [FDD HDD Emulation Drive Bay](#fdd-hdd-emulation-drive-bay)
   - [Wyse WY-60 CompuPro Connected Terminal](#wyse-wy-60-compupro-connected-terminal)
-  - [TeleVideo 995-65 Terminal](#televideo-996-65-terminal)
+  - [TeleVideo 995-65 Terminal](#televideo-995-65-terminal)
 - [MFM Emulation Files](#mfm-emulation-files)
 
 # Project Purpose and Goal #
@@ -106,7 +106,7 @@ Picture and Description coming soon.
 
 ## TeleVideo 995-65 Terminal ##
 
-Picture and Description coming soon.
+![picture alt](Docs/TV_995-65.jpg "TeleVideo 995-65 User Terminal")
 
 # MFM Emulation Files #
 
