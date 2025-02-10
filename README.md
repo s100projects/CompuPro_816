@@ -102,11 +102,33 @@ I also 3D-Printed a drive front panel and drive mounting cage that secures the G
 
 ## Wyse WY-60 CompuPro Connected Terminal ##
 
-Picture and Description coming soon.
+![picture alt](Docs/Wyse-60.jpg "Wyse WY-60 CompuPro Connected")
+
+I acquired this terminal in Charleston (Thanks Terry!), and I was surprised to find it was a "CompuPro Connected" terminal.  I wasn't aware that such a relationship between CompuPro and Wyse existed into the 1990s.  It just shows that despite the rapid adoption of the IBM PC platforms, these mid-end business solutions were still a market presense throughout the 80s and 90s.
+
+![picture alt](Docs/CPRO_Connected.jpg "Wyse WY-60 CompuPro Connected Label")
 
 ## TeleVideo 995-65 Terminal ##
 
 ![picture alt](Docs/TV_995-65.jpg "TeleVideo 995-65 User Terminal")
+
+<b>The Heat Damaged Pizza Terminal</b>
+
+This terminal was an eBay rescue from Texas.  It was an IT company lease to a national pizza chain call center based in the Dallas area, and was returned to the IT company (between Dallas and Houston) and stored outside under a tarp for a period of time.<br>
+
+When I recieved the unit, it exhibited several signs of heat exposure and damage:
+- A bowed bottom case (but no breaks, meaning the bow occured over time under heat)
+- Leaking Caps
+- Yellowed Case
+- Unstable horizontal oscillator and switching power supply
+
+<b>Replacing the Caps</b>
+
+The first task was to replace the caps.  I chose to replace all the electrolytics due to the heat exposure.  This was also a preventative measure as this terminal was made during the "Capacitor Plague" and several of the caps were from affected cap manufacturers.  The Cap Replacement also fixed the Horizontal Oscillator and Switching Power Supply issues. <br>
+
+The bowing at the bottom of the case was not fixed as the PCB (being hard mounted to the bottom of the case) also ended up with a bow, and I did not want to put stress on the PCB's solder joints. <br>
+
+The case was Retro-Brited using the Hydrogen Perioxide Vapor Method (if interested in this method, search YouTube for it).
 
 # MFM Emulation Files #
 
