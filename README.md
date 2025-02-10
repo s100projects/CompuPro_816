@@ -126,9 +126,11 @@ When I recieved the unit, it exhibited several signs of heat exposure and damage
 
 The first task was to replace the caps.  I chose to replace all the electrolytics due to the heat exposure.  This was also a preventative measure as this terminal was made during the "Capacitor Plague" and several of the caps were from affected cap manufacturers.  The Cap Replacement also fixed the Horizontal Oscillator and Switching Power Supply issues. <br>
 
-The bowing at the bottom of the case was not fixed as the PCB (being hard mounted to the bottom of the case) also ended up with a bow, and I did not want to put stress on the PCB's solder joints. <br>
+<b>Cleaning up the case</b>
 
-The case was Retro-Brited using the Hydrogen Perioxide Vapor Method (if interested in this method, search YouTube for it).
+The bowing at the bottom of the case was not fixed as the PCB (being hard mounted to the bottom of the case) also ended up with a bow, and I did not want to put stress on the PCB's solder joints.  Also, the front bezel covers up the bow at the bottom of the case, so fixing the bow would not offer any cosmetic improvement.  <br>  
+
+The case was Retro-Brited using the Hydrogen Perioxide Vapor Method (if interested in this method, search YouTube for it).  The results were very good and did not seem to embrittle, mottle, or discolor the plastic.
 
 # MFM Emulation Files #
 
