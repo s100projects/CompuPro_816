@@ -114,7 +114,7 @@ I acquired this terminal in Charleston (Thanks Terry!), and I was surprised to f
 
 <b>The Heat Damaged Pizza Terminal</b>
 
-This terminal was an eBay rescue from Texas.  It was an IT company lease to a national pizza chain call center based in the Dallas area, and was returned to the IT company (between Dallas and Houston) and stored outside under a tarp for a period of time.<br>
+This terminal was an eBay rescue from Texas.  It was an IT company lease to a national pizza chain call center based in the Dallas area, and was returned to the IT company (between Dallas and Houston) when the pizza company upgraded their systems in the 2010s.  It was then stored outside under a tarp for a period of time before it was sold eBay.<br>
 
 When I recieved the unit, it exhibited several signs of heat exposure and damage:
 - A bowed bottom case (but no breaks, meaning the bow occured over time under heat)
