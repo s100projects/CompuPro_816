@@ -10,7 +10,7 @@
   - [FDD HDD Emulation Drive Bay](#fdd-hdd-emulation-drive-bay)
   - [Wyse WY-60 CompuPro Connected Terminal](#wyse-wy-60-compupro-connected-terminal)
   - [TeleVideo 995-65 Terminal](#televideo-996-65-terminal)
-- [MFM Emulation Files]
+- [MFM Emulation Files](#mfm-emulation-files)
 
 # Project Purpose and Goal #
 This particular CompuPro 8/16 S-100 Computer is a multi-user system that ran a central office business solution for a nation-wide high-end retail chain in the mid-80's to the mid 2000's.<br>  
