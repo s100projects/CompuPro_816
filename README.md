@@ -110,11 +110,9 @@ I acquired this terminal in Charleston (Thanks Terry!), and I was surprised to f
 
 ## TeleVideo 995-65 Terminal ##
 
-![picture alt](Docs/TV_995-65.jpg "TeleVideo 995-65 User Terminal")
-
 <b>The Heat Damaged Pizza Terminal</b>
 
-This terminal was an eBay rescue from Texas.  It was an IT company lease to a national pizza chain call center based in the Dallas area, and was returned to the IT company (between Dallas and Houston) when the pizza company upgraded their systems in the 2010s.  It was then stored outside under a tarp for a period of time before it was sold eBay.<br>
+This terminal was an eBay rescue from Texas.  It was an IT company lease to a national pizza chain call center based in the Dallas area, and was returned to the IT company (located between Dallas and Houston) when the pizza company upgraded their systems in the 2010s.  It was then stored outside under a tarp for a period of time before it was sold on eBay.<br>
 
 When I recieved the unit, it exhibited several signs of heat exposure and damage:
 - A bowed bottom case (but no breaks, meaning the bow occured over time under heat)
@@ -122,15 +120,25 @@ When I recieved the unit, it exhibited several signs of heat exposure and damage
 - Yellowed Case
 - Unstable horizontal oscillator and switching power supply
 
+The bowing of the bottom of the case is observable in the following photo, where you can see an upward bow in the center under the PCB (which in addition to the damaged and leaking caps, shows further evidence of the long-term heat exposure).  Of note is that the Printed Circuit Board also acquired this bow, even when removed from the case, meaning that the high temperature at the PCB went past the epoxy Transition Point (Tg) temperature.  See: [Glass Transition Temperatures](https://en.wikipedia.org/wiki/Glass_transition).
+
+![picture alt](Docs/TVI_995-65_Case_Bow.jpg "TeleVideo 995-65 Heat Induced Case Bowing")
+
 <b>Replacing the Caps</b>
 
 The first task was to replace the caps.  I chose to replace all the electrolytics due to the heat exposure.  This was also a preventative measure as this terminal was made during the "Capacitor Plague" and several of the caps were from affected cap manufacturers.  The Cap Replacement also fixed the Horizontal Oscillator and Switching Power Supply issues. <br>
+
+After replacing the caps, I did a partial reassembly to verify the repairs.
+
+![picture alt](Docs/TV-995-65_open_frame.jpg "TeleVideo 995-65 Open Frame Test")
 
 <b>Cleaning up the case</b>
 
 The bowing at the bottom of the case was not fixed as the PCB (being hard mounted to the bottom of the case) also ended up with a bow, and I did not want to put stress on the PCB's solder joints.  Also, the front bezel covers up the bow at the bottom of the case, so fixing the bow would not offer any cosmetic improvement.  <br>  
 
 The case was Retro-Brited using the Hydrogen Perioxide Vapor Method (if interested in this method, search YouTube for it).  The results were very good and did not seem to embrittle, mottle, or discolor the plastic.
+
+![picture alt](Docs/TV_995-65.jpg "TeleVideo 995-65 User Terminal")
 
 # MFM Emulation Files #
 
