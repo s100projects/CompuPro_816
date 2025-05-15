@@ -91,7 +91,7 @@ The total number of connecter interfaces available are:
 
 ## FDD HDD Emulation Drive Bay ##
 
-Although I have two of the orignal CompuPro external floppy drive bays, I do not have an original hard drive bay.  This makes it difficult to completely replicate a 1980s Qume Hard Drive setup.  Adding to that, since the 40MB and 80MB drives that the CompuPro 8/16 originally used are not now widely available and the fact that any 40 year old used drives would be of (very?) dubious reliability, I instead decided to use two Gotek Floppy Emulators and a <b>pdp8online</b> MFM Emulator for hard drive emulation.
+Although I have two of the orignal CompuPro external floppy drive bays, I do not have an original hard drive bay.  This makes it difficult to completely replicate a 1980s Qume Hard Drive setup.  Adding to that, since the 40MB and 80MB drives that the CompuPro 8/16 originally used are not now widely available and the fact that any 40 year old used drives would be of (very?) dubious long term reliability, I instead decided to use two Gotek Floppy Emulators and a <b>pdp8online</b> MFM Emulator for hard drive emulation (see this link for more information on the MFM Emulator [https://www.pdp8online.com/mfm/](https://www.pdp8online.com/mfm/) ).
 
 ![picture alt](Docs/MFM_EMU-Gotek_Drive_Bay.jpg "CompuPro Emulated Drive Bay")
 
@@ -103,6 +103,38 @@ I also 3D-Printed a drive front panel and drive mounting cage that secures the G
 - Smaller, low-weight package (much easier to carry to VCF!)
 - Simplified backup of hard disk images (via WinSCP over ethernet)
 - Easy to switch between hard disk and floppy image
+
+The 3D Printed parts are made up of the integrated front panel, drive bay mounts (which can accommodate two Goteks or any other 3.5" disk drive mounting format devices), front panel buttons for the <b>Beagle Bone Green</b> power/reset functions, and a top mounted MFM Emulator with attached <b>Beagle Bone Green</b> (<u>note bene</u> - This mount will <b>NOT</b> work with the <b>Beagle Bone Black</b>).
+
+![picture alt](Docs/Drive_Mount_CAD.jpg)
+![picture alt](Docs/Drive_Mouont_Button.jpg)
+
+You can download the STL files for these components here:
+[CPRO+Drive_Mount_and_BB_Button.zip](Docs/CPRO+Drive_Mount_and_BB_Button.zip)
+
+### Electrical Components ###
+The Bill-of-Materials (BoM) for the Switches, LED Indicators, and mounting hardware, are below:
+
+<b>Digikey [https://www.digikey.com/](https://www.digikey.com/):</b>
+  | <b>Digikey Part Number</b> | <b>Description</b> |
+  |----------------|----------------|
+  | <b>JWM11BC1A-A-ND</b>  | Red Rocker Switch for Power (Qty 1)  |
+  | <b>67-1179-ND</b>  | Red LED Power Indicator (Qty1)  |
+  | <b>UB04KW015C-ND</b>  | Red LED HD Drive Select Indicator (Qty 2)  |
+  | <b>360-2552-ND</b> or | Clear Cap for Drive Select Indicator (Qty2)  |
+  | <b>360-3819-ND</b>  | Red Cap for Drive Select Indicator (Qty 2)  |
+
+### Mechanical Components ###
+The screws required for assembly are below:
+
+<b>McMaster-Carr [https://www.mcmaster.com/](https://www.mcmaster.com/):</b>
+  | <b>Digikey Part Number</b> | <b>Description</b> |
+  |----------------|----------------|
+  | <b>90065A146</b>  | #6 Flat Head Screw 3/8" long Sheet Metal Screw |
+  |                   | (For securing Drive Bay to Apple II Case Base Plate) |
+  | <b>92470A041</b>  | #0 Round Head 5/8" long Sheet Metal Screw |
+  |                   | (Pivot screw for Beagle Bone Power and Reset Buttons) |
+
 
 ## Wyse WY-60 CompuPro Connected Terminal ##
 
