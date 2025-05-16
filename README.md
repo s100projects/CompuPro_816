@@ -122,7 +122,17 @@ The Bill-of-Materials (BoM) for the Switches, LED Indicators, and mounting hardw
   | <b>67-1179-ND</b>  | Red LED Power Indicator (Qty1)  |
   | <b>UB04KW015C-ND</b>  | Red LED HD Drive Select Indicator (Qty 2)  |
   | <b>360-2552-ND</b> or | Clear Cap for Drive Select Indicator (Qty2)  |
-  | <b>360-3819-ND</b>  | Red Cap for Drive Select Indicator (Qty 2)  |
+  | <b>2N3906D26ZCT-ND</b>  | 2N3906 PNP Transistor (Qty 2)  |
+  | <b>13-CFR-25JB-52-10K-ND</b>  | 10K ohm 5% 1/4W Axial Resistor (Qty 2)  |
+  | <b>13-CFR-25JR-52-5K6CT-ND</b>  | 5.6K ohm 5% 1/4W Axial Resistor (Qty 2)  |
+  | <b>13-CFR-25JB-52-68R-ND</b>  | 68 ohm 5% 1/4W Axial Resistor (Qty 3)  |
+  | <b>H3CCH-2006G-ND</b>  | 20-Pin Ribbon Cable (Qty 1)  |
+  |                        | (One end is cut off and the wires are directly soldered to the components)  |
+  | <b>AE1398-ND</b>  | Twin FDD Power Cable/Pigtails (Qty 1)  |
+  |                   | (The larger 5-1/4" Power Connector is cut off and discarded) |
+  | <b>1528-5391-ND</b> | MFM Emulator 5-1/4" Power Connect Pigtail (Qty 1) |
+  | <b>CP-065B-ND</b>  | 2.5x5.5mm DC Barrel Jack Panel Mount (Qty 1)  |
+  | <b>1939-1509-ND</b>  | 5V 16W AC Adapter (Qty 1)  |
 
 ### Mechanical Components ###
 The screws required for assembly are below:
