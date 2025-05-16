@@ -96,15 +96,15 @@ Although I have two of the orignal CompuPro external floppy drive bays, I do not
 ![picture alt](Docs/MFM_EMU-Gotek_Drive_Bay.jpg "CompuPro Emulated Drive Bay")
 
 I built this enclosure out of a used (and very abused!) Apple II drive enclosure that I had spare.  Since the rear panel of the enclosure was damaged, (and since Apple II drive bays are still very plentiful on eBay), I felt no qualms modifying this unit for the purpose.<br>
-I also 3D-Printed a drive front panel and drive mounting cage that secures the Goteks and MFM Emulator in the original case mounting bosses.
+I also 3D-Printed a Drive Front Panel and Drive Mounting Cage that secures the Goteks and MFM Emulator in the original case mounting bosses.
 
 <b>The advantages of this approach are:</b>
 - More reliabiity (no moving parts)
 - Smaller, low-weight package (much easier to carry to VCF!)
 - Simplified backup of hard disk images (via WinSCP over ethernet)
-- Easy to switch between hard disk and floppy image
+- Easy to switch between hard disk and floppy images for custom boots
 
-The 3D Printed parts are made up of the integrated front panel, drive bay mounts (which can accommodate two Goteks or any other 3.5" disk drive mounting format devices), front panel buttons for the <b>Beagle Bone Green</b> power/reset functions, and a top mounted MFM Emulator with attached <b>Beagle Bone Green</b> (<u>note bene</u> - This mount will <b>NOT</b> work with the <b>Beagle Bone Black</b>).
+The 3D Printed parts are made up of the integrated Drive Front Panel, Drive Bay Mounts (which can accommodate two Goteks or any other 3.5" disk drive mounting format devices), Front Panel Buttons for the <b>Beagle Bone Green</b> power/reset functions, and a top mounted MFM Emulator with attached <b>Beagle Bone Green</b> (<u>note bene</u> - This mount will <b>NOT</b> work with the <b>Beagle Bone Black</b>).
 
 ![picture alt](Docs/Drive_Mount_CAD.jpg)
 ![picture alt](Docs/Drive_Mouont_Button.jpg)
@@ -135,6 +135,11 @@ The screws required for assembly are below:
   | <b>92470A041</b>  | #0 Round Head 5/8" long Sheet Metal Screw |
   |                   | (Pivot screw for Beagle Bone Power and Reset Buttons) |
 
+### Wiring the Power and Front-Panel ###
+![picture alt](Docs/Front_Panel_and_Power_Wiring.jpg)
+See the above schematic for wiring the Disk Drive Bay Front Panel.  The PDF version is available here: [Front Panel and Power Wiring Schematic](Docs/Front_Panel_and_Power_Wiring_v1.pdf) 
+
+I built the MFM Emulator PCB <b>without</b> the Super-Caps since the power supply for the Disk Drive Bay is not tied to the power state of the main CompuPro Chassis (see [MFM EMU Build Options](https://www.pdp8online.com/mfm/revb/revb_board_assembly.shtml#assembly) if you want to do the same).  I generally leave the Disk Drive Bay continuously powered on and connected to a UPS backup, so the Super-Caps would not add much utility in this use case.  I do habitually press and hold the CompuPro's RESET switch while I power down the Chassis, and if I'm still concerned that an errant disk write could occur, I can also force a clean shutdown of the Beagle Board Green/MFM Emulator with the Disk Drive Bay's Front Panel Standby Button prior to powering off the CompuPro Chassis.
 
 ## Wyse WY-60 CompuPro Connected Terminal ##
 
